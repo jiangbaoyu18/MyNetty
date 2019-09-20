@@ -4,6 +4,7 @@ import java.nio.IntBuffer;
 import java.security.SecureRandom;
 
 /**
+ *
  * Nonblocking io
  * Nio的三个核心概念：Selector,Channel ,Buffer，nio是面向block编程的（而非stream）
  * Buffer 本身为一块内存，数据的读写都是通过buffer实现的,基本类型都有对应的Buffer类型
