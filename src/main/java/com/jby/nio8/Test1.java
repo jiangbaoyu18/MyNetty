@@ -11,13 +11,8 @@ import java.security.SecureRandom;
  *      position:下一次要读或写的索引的位置；limit: 第一个不能读或写的索引位置
  *
  * Channel 类似于Stream，可以向其write or  read 数据 （通过Buffer）,Channel是双向的而Stream是单向的
- *
- *
  */
 public class Test1 {
-
-
-    //test
 
     public static void main(String[] args) {
         IntBuffer buf=IntBuffer.allocate(10);
